@@ -7,7 +7,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 import re
 
-st.set_page_config(page_title="Tense Prediction", page_icon="✏️")
 
 model = pickle.load(open('model.pkl', 'rb'))
 vectorizer = pickle.load(open("vectorizer.pkl", 'rb'))
