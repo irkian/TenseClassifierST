@@ -42,7 +42,7 @@ tenseMapping = {
 st.title("Tense Prediction")
 
 # Add CSS styles
-with open('templates/main.css', 'r') as f:
+with open('Templates/main.css', 'r') as f:
     css_styles = f.read()
 st.markdown(f'<style>{css_styles}</style>', unsafe_allow_html=True)
 
